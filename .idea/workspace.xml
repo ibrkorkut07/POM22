@@ -5,18 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7557de63-a18b-4cb6-af56-c9549f4d126f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AmazonPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/FacebookPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HotelmycampPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/C01_DriverFirstTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/C02_PageFirstClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/C03_FacebookLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/C04_PositiveTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HMCWebTablePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/C05_NegativeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/C06_PropertiesFirstClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/C07_WrongKeyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/C08_SingletonPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/C09_E2ETest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/C10_E2ETest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/C11_Webtables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/smokeTest/NegativeLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/smokeTest/PositiveLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HotelmycampPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HotelmycampPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/C04_PositiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/C04_PositiveTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,17 +53,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/ibrko/IdeaProjects/POM22/src/test/java/utilities"
+    "last_opened_file_path": "C:/Users/ibrko/IdeaProjects/POM22/src/test/java/tests"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ibrko\IdeaProjects\POM22\src\test\java\utilities" />
       <recent name="C:\Users\ibrko\IdeaProjects\POM22\src\test\java\tests" />
+      <recent name="C:\Users\ibrko\IdeaProjects\POM22\src\test\java\utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C04_PositiveTest.positiveLoginTest">
-    <configuration name="C01_DriverFirstTest.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C11_Webtables.login">
+    <configuration name="C09_E2ETest.createHotel" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POM22" />
       <extension name="coverage">
         <pattern>
@@ -68,8 +72,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.C01_DriverFirstTest" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="MAIN_CLASS_NAME" value="tests.C09_E2ETest" />
+      <option name="METHOD_NAME" value="createHotel" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -77,7 +81,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_PageFirstClass.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C11_Webtables.login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POM22" />
       <extension name="coverage">
         <pattern>
@@ -86,8 +90,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.C02_PageFirstClass" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="MAIN_CLASS_NAME" value="tests.C11_Webtables" />
+      <option name="METHOD_NAME" value="login" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -95,17 +99,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_PageFirstClass.test02" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NegativeLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POM22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.smokeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.C02_PageFirstClass" />
-      <option name="METHOD_NAME" value="test02" />
+      <option name="PACKAGE_NAME" value="tests.smokeTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.smokeTest.NegativeLoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NegativeLoginTest.wrongUsernameTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="POM22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.smokeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.smokeTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.smokeTest.NegativeLoginTest" />
+      <option name="METHOD_NAME" value="wrongUsernameTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -113,35 +134,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_FacebookLogin.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NegativeLoginTest.wrongUsername_PasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POM22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.smokeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.C03_FacebookLogin" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C04_PositiveTest.positiveLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="POM22" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.C04_PositiveTest" />
-      <option name="METHOD_NAME" value="positiveLoginTest" />
+      <option name="PACKAGE_NAME" value="tests.smokeTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.smokeTest.NegativeLoginTest" />
+      <option name="METHOD_NAME" value="wrongUsername_PasswordTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -151,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C04_PositiveTest.positiveLoginTest" />
-        <item itemvalue="TestNG.C03_FacebookLogin.test" />
-        <item itemvalue="TestNG.C02_PageFirstClass.test02" />
-        <item itemvalue="TestNG.C01_DriverFirstTest.test01" />
-        <item itemvalue="TestNG.C02_PageFirstClass.test01" />
+        <item itemvalue="TestNG.C11_Webtables.login" />
+        <item itemvalue="TestNG.C09_E2ETest.createHotel" />
+        <item itemvalue="TestNG.NegativeLoginTest" />
+        <item itemvalue="TestNG.NegativeLoginTest.wrongUsername_PasswordTest" />
+        <item itemvalue="TestNG.NegativeLoginTest.wrongUsernameTest" />
       </list>
     </recent_temporary>
   </component>

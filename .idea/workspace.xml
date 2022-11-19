@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7557de63-a18b-4cb6-af56-c9549f4d126f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/T7RevTests/C28_Webtable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/T7RevTests/C29_WebtableCelltest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/T7RevTests/C30_XML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/T7RevTests/C31_ReportTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/T8DataProvider/C32_DataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/T8DataProvider/C33_DataProviderNegatifLogintesti.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,16 +39,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/ibrko/IdeaProjects/POM22/src/test/java/tests/T6TestReports"
+    "last_opened_file_path": "C:/Users/ibrko/IdeaProjects/POM22/src/test/java/tests/T8DataProvider"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ibrko\IdeaProjects\POM22\src\test\java\tests\T8DataProvider" />
       <recent name="C:\Users\ibrko\IdeaProjects\POM22\src\test\java\tests\T6TestReports" />
       <recent name="C:\Users\ibrko\IdeaProjects\POM22\src\test\java\tests\T5Screenshot" />
       <recent name="C:\Users\ibrko\IdeaProjects\POM22\src\test\java\utilities" />
       <recent name="C:\Users\ibrko\IdeaProjects\POM22\src" />
-      <recent name="C:\Users\ibrko\IdeaProjects\POM22\src\test" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.C:/Users/ibrko/IdeaProjects/POM22/src/belirlenenGruplariCalistirma.xml">

@@ -5,51 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7557de63-a18b-4cb6-af56-c9549f4d126f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/belirlenenClasslariCalistirma.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/belirlenenGruplariCalistirma.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/belirlenenPackageleriCalistirma.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/belirliTestMethodlariniCalistirma.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cokluCalistirmaCrossBrowser.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cokluCalistirmaCrossBrowserParalel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cokluCalistirmaParalel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cokluCalistirmaSirali.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paralelClassCalistirma.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/raporCalistirma.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/T5Screenshot/C25_WindowHandleReusableMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/T6TestReports/C26_TestNGReports.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/T6TestReports/C27_FacebookTesti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/CrossDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseCross.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tumPackageleriCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/T7RevTests/C28_Webtable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/T7RevTests/C29_WebtableCelltest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/T7RevTests/C30_XML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/T7RevTests/C31_ReportTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/C01_DriverFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T1Login/C01_DriverFirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/C02_PageFirstClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T1Login/C02_PageFirstClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/C03_FacebookLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T1Login/C03_FacebookLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/C04_PositiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T1Login/C04_PositiveTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/C05_NegativeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T1Login/C05_NegativeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/C06_PropertiesFirstClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T2Properties_Singleton_E2E/C06_PropertiesFirstClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/C07_WrongKeyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T2Properties_Singleton_E2E/C07_WrongKeyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/C08_SingletonPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T2Properties_Singleton_E2E/C08_SingletonPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/C09_E2ETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T2Properties_Singleton_E2E/C09_E2ETest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/C10_E2ETest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T2Properties_Singleton_E2E/C10_E2ETest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/C11_Webtables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T3Webtables/C11_Webtables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/C12_WebtableDinamikLocate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T3Webtables/C12_WebtableDinamikLocate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/C13_WebtablesDemoqa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T3Webtables/C13_WebtablesDemoqa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/C14_Webtables3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T3Webtables/C14_Webtables3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/C15_Webtables4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T3Webtables/C15_Webtables4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/C16_Excel1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T4Excel/C16_Excel1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/C16_ReadExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T4Excel/C16_ReadExcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/C17_ReadExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T4Excel/C17_ReadExcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/C18_ReadExcel3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T4Excel/C18_ReadExcel3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/C19_ReusableMethodsExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T4Excel/C19_ReusableMethodsExcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/C20_ReusableRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T4Excel/C20_ReusableRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/C21_SavingExcelAsMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T4Excel/C21_SavingExcelAsMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/C22_SatirSayisi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T4Excel/C22_SatirSayisi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/C23_WriteExcel1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T4Excel/C23_WriteExcel1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/C24_WriteExcel2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T4Excel/C24_WriteExcel2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

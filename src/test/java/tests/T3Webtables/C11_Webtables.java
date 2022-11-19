@@ -1,0 +1,80 @@
+package tests.T3Webtables;
+
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+import pages.HMCWebTablePage;
+import pages.HotelmycampPage;
+
+import java.util.List;
+
+public class C11_Webtables {
+
+    // login() metodun oluşturun ve oturum acin
+    // https://www.hotelmycamp.com admin/HotelRoomAdmin adresine gidin
+    //      Username : manager
+    //      Password : Manager1!
+    // table() metodu oluşturun
+    // Tüm table body’sinin boyutunu(sutun sayisi) bulun. /tbody
+    // Table’daki tum body’I ve başlıkları(headers) konsolda yazdırın.
+    // printRows(printRows() metodu oluşturun //tr
+    // table body’sinde bulunan toplam satir(row) sayısını bulun.
+    // Table body’sinde bulunan satirlari(rows) konsolda yazdırın.
+    // 4.satirdaki(row) elementleri konsolda yazdırın.
+
+    HotelmycampPage hotelmycampPage;
+    HMCWebTablePage hmcWebTablePage;
+
+    @Test
+    public void login() {
+        hotelmycampPage = new HotelmycampPage();
+        hotelmycampPage.HMClogin();
+    }
+
+    @Test (dependsOnMethods = "login")
+    public void table(){
+        // table( ) metodu oluşturun
+        // Tüm table body’sinin boyutunu(sutun sayisi) bulun. /tbody
+        // header kisminda birinci satir ve altindaki datalari locate edelim
+        // //thead//tr[1]//th
+        hmcWebTablePage=new HMCWebTablePage();
+        List<WebElement> headerDataList= hmcWebTablePage.headerBirinciSatirDatalar;
+        System.out.println("tablodaki sutun sayisi : " + headerDataList.size());
+
+        // Table’daki tum body’i ve başlıkları(headers) konsolda yazdırın.
+        // //tbody
+
+        System.out.println(hmcWebTablePage.tumBodyWebElementi.getText());
+        // Eger body'yi tek bir webelement olarak locate edersek
+        // icindeki tum datalari getText() ile yazdirabiliriz
+        // ancak bu durumda bu elementler ayri ayri degil,
+        // body'nin icindeki tek bir String'in parcalari olurlar
+        // dolayisiyla bu elementlere tek tek ulasmamiz mumkun olmaz
+        // sadece contains method'u ile body'de olup olmadiklarini test edebiliriz.
+
+        // eger her bir datayi ayri ayri almak istersek
+        // //tbody//td seklinde locate edip bir list'e atabiliriz
+
+        List<WebElement> bodyTumDataList=hmcWebTablePage.tumBodyDatalariList;
+
+        System.out.println("body'deki data sayisi : " + bodyTumDataList.size());
+    }
+
+    @Test (dependsOnMethods = "loginT")
+    public void printRows(){
+        // printRows( ) metodu oluşturun //tr
+        // table body’sinde bulunan toplam satir(row) sayısını bulun.
+        // //tbody//tr
+        hmcWebTablePage=new HMCWebTablePage();
+        System.out.println(hmcWebTablePage.satirlarListesi.size());
+
+        // Table body’sinde bulunan satirlari(rows) konsolda yazdırın.
+
+        List <WebElement> satirlarWebelementListesi=hmcWebTablePage.satirlarListesi;
+        for (WebElement each: satirlarWebelementListesi
+        ) {
+            System.out.println(each.getText());
+        }
+        // 4.satirdaki(row) elementleri konsolda yazdırın.
+        System.out.println("4.satir : "+satirlarWebelementListesi.get(3).getText());
+    }
+}

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="belirli classlar">
+    <test name="classlar">
+        <classes>
+            <!--yorum yazmak icin    -->
+            <class name="tests.T3Webtables.C13_WebtablesDemoqa"></class>
+            <class name="tests.T3Webtables.C11_Webtables"></class>
+            <class name="tests.T2Properties_Singleton_E2E.C06_PropertiesFirstClass"></class>
+        </classes>
+    </test>
+</suite>
